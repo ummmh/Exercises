@@ -9,10 +9,13 @@ race_times = []
 race_time = ""
 
 while True:
-    race_time = float(input("Enter finishing time: "))
-    if race_time == -1:
-        break
-    race_times.append(race_time)
+    try:
+        race_time = float(input("Enter finishing time: "))
+        if race_time == -1:
+            break
+        race_times.append(race_time)
+    except ValueError:
+        print("Please enter a valid race time\n")
 
 # prints all the scores
 print("\nRace times entered:")
