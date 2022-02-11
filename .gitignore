@@ -1,0 +1,8 @@
+
+venv/Scripts/deactivate.bat
+.idea/workspace.xml
+venv/Scripts/Activate.ps1
+venv/Scripts/activate.bat
+venv/Scripts/activate
+venv/pyvenv.cfg
+Ex4_students_average_mark.py
