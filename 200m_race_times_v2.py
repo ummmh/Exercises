@@ -5,12 +5,6 @@ Created by Janna Lei Eugenio
 11/02/2022 - version 2
 """
 
-# Create another version of your program.
-# Modify this second version so that users can enter times for either the 100m, the 200m, or the 400m races. The user should also be allowed to select an event and see all the times entered, as well as the fastest and average times for that event. There should also be a command to clear all saved times.
-
-# Ensure you have committed this new version to your GitHub repository.
-# Copy the link address to your file and paste below
-
 
 # functions
 def select_options(list, race):
@@ -53,14 +47,17 @@ def add_time(list):
 
 def print_totals(list, race):
     print("\n--------OPTION 2--------")
-    print(f"\nRace times entered for {race}m:")
-    for race_time in list:
-        print(race_time)
-    print()
-    list.sort()
-    print(f"\nThe fastest time was {list[0]}")
-    average_time = sum(list) / len(list)
-    print(f"\nThe average time was {average_time}")
+    try:
+        print(f"Race times entered for {race}m:")
+        for race_time in list:
+            print(race_time)
+        print()
+        list.sort()
+        print(f"The fastest time was {list[0]}")
+        average_time = sum(list) / len(list)
+        print(f"The average time was {average_time}")
+    except IndexError:
+        print("There are no finishing times inputted yet!")
 
 
 # main routine
