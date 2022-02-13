@@ -36,7 +36,7 @@
       <recent name="C:\Users\janna\OneDrive - Middleton Grange School\2022\13DTC\3.7 Programming\Exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.200m_race_times_v2">
+  <component name="RunManager" selected="Python.Ex4_students_average_mark">
     <configuration name="200m_race_times" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,9 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex4_students_average_mark" />
         <item itemvalue="Python.200m_race_times_v2" />
         <item itemvalue="Python.200m_race_times" />
-        <item itemvalue="Python.Ex4_students_average_mark" />
         <item itemvalue="Python.Ex3_volume_of_concrete" />
         <item itemvalue="Python.Ex2_sum_of_numbers" />
       </list>
