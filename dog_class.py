@@ -1,10 +1,11 @@
 # program order: libraries, classes, function, main routine
 # Class - first letter uppercase (camelcase)
 class Dog:
-    def bark(self):
-        print("Bark")
+    def __init__(self, name):
+        self.name = name
+        print(name)
 
 
 # Main routine
-spot = Dog()
-spot.bark()
+dog1 = Dog("Spot")
+dpg2 = Dog("Jazz")
