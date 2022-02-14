@@ -7,4 +7,4 @@ class Dog:
 
 # Main routine
 spot = Dog()
-print(type(spot))
+spot.bark()
