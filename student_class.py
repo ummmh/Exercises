@@ -25,7 +25,10 @@ class Course:
         return False  # Where student is not added
 
     def get_average_grade(self):
-        pass
+        total = 0
+        for student in self.students:
+            total += student.get_grade()
+            return total / len(self.students)
 
 
 # Main routine
@@ -41,6 +44,5 @@ course1 = Course("Computer Science", 2)
 course1.add_student(s1)
 course1.add_student(s2)
 
-# confirm entry of students
-for student in course1.students:
-    print(student.name)
+# get the average grade of all students in a course
+print(f"The average grade in {course1.name} is {course1.get_average_grade()}")
