@@ -5,3 +5,6 @@ venv/Scripts/Activate.ps1
 venv/Scripts/activate.bat
 venv/Scripts/activate
 venv/pyvenv.cfg
+.idea/codeStyles/codeStyleConfig.xml
+.idea/workspace.xml
+.idea/workspace.xml
