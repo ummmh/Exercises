@@ -38,7 +38,7 @@ s2 = Student("Bill", 19, 75)
 s3 = Student("Jill", 19, 65)
 
 # instantiate course object
-course1 = Course("Computer Science", 2)
+course1 = Course("Computer Science", 3)
 
 # add students to course
 course1.add_student(s1)
