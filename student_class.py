@@ -43,6 +43,7 @@ course1 = Course("Computer Science", 2)
 # add students to course
 course1.add_student(s1)
 course1.add_student(s2)
+print(course1.add_student(s3))  # try add 3rd student - print to confirm
 
 # get the average grade of all students in a course
 print(f"The average grade in {course1.name} is {course1.get_average_grade()}")
