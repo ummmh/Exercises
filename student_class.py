@@ -1,34 +1,46 @@
 # program order: libraries, classes, function, main routine
+# Class - first letter uppercase (camelcase)
 class Student:
     def __init__(self, name, age, grade):
         self.name = name
         self.age = age
-        self.grade = grade # int 0-100
+        self.grade = grade  # int 0-100
 
-# Class - first letter uppercase (camelcase)
-class Dog:
-    def __init__(self, name, age, colour):
+    # method to return student grade
+    def get_grade(self):
+        return self.grade
+
+
+class Course:
+    def __init__(self, name, max_students):
         self.name = name
-        self.age = age
-        self.colour = colour
+        self.max_students = max_students
+        self.students = []
 
-    def print_details(self):
-        return f"{self.name} is a {self.colour} dog aged {self.age}."
+    # method to add students to course
+    def add_student(self, student):
+        if len(self.students) < self.max_students:
+            self.students.append(student)
+            return True  # to confirm student added
+        return False  # Where student is not added
 
-    def change_age(self, age):
-        self.age = age
+    def get_average_grade(self):
+        pass
 
 
 # Main routine
-dog1 = Dog("Spot", 7, "black")
-dog2 = Dog("Jazz", 5, "white")
+# instantiate student objects
+s1 = Student("Tim", 19, 95)
+s2 = Student("Bill", 19, 75)
+s3 = Student("Jill", 19, 65)
 
-print(Dog.print_details(dog1))
-print(Dog.print_details(dog2))
+# instantiate course object
+course1 = Course("Computer Science", 2)
 
-# Change the age function called
-dog1.change_age(17)
-dog2.change_age(9)
+# add students to course
+course1.add_student(s1)
+course1.add_student(s2)
 
-print(Dog.print_details(dog1))
-print(Dog.print_details(dog2))
+# confirm entry of students
+for student in course1.students:
+    print(student.name)
