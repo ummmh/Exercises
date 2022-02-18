@@ -6,6 +6,7 @@ class Bus:
         self.number = number
         self.route = route
         self.driver = driver
+        bus_list.append(self)
 
     def print_details(self):
         return f"Bus no.: {self.number}\nBus route: {self.route}" \
@@ -13,10 +14,12 @@ class Bus:
 
 
 # Main Routine
-bus1 = Bus(2010, "Y", "Greg")
-bus2 = Bus(2011, "P", "Neg")
-bus3 = Bus(2012, "130", "Egg")
+bus_list = []
 
-print(Bus.print_details(bus1))
-print(Bus.print_details(bus2))
-print(Bus.print_details(bus3))
+bus1 = Bus(2010, "Y", "Greg")
+bus2 = Bus(2011, "P", "Joel")
+bus3 = Bus(2012, "130", "Kent")
+
+for bus in bus_list:
+    print(f"Bus no.: {bus.number}\nBus route: {bus.route}"
+          f"\nBus driver: {bus.driver}\n")
