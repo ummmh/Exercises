@@ -162,7 +162,7 @@ while new_action:
         add_book()
     elif choice == "5":
         confirm = input("Type 'Y' if you want to exit the system - "
-                        "or any other key to back to the menu")
+                        "or any other key to back to the menu: ").upper()
         if confirm == "Y":
             print("Goodbye")
             new_action = False
