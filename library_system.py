@@ -95,9 +95,9 @@ def lend_book():
     if user:
         book = find_book()
         if book.available:
-            confirm = input("Type 'Y' if you want to borrow this book: "
-                            ).upper()
-            if confirm == "Y":
+            confirmation = input("Type 'Y' if you want to borrow this book: "
+                                 ).upper()
+            if confirmation == "Y":
                 print(f"Book title: '{book.title}' is now out on loan to "
                       f"{user.name}")
                 book.available = False
@@ -114,9 +114,9 @@ def return_book():
     if user:
         book = find_book()
         if not book.available:
-            confirm = input("Type 'Y' if you want to return this book: "
-                            ).upper()
-            if confirm == "Y":
+            confirmation = input("Type 'Y' if you want to return this book: "
+                                 ).upper()
+            if confirmation == "Y":
                 print(f"Book title: '{book.title}' is now returned to the "
                       f"library")
                 book.available = True
