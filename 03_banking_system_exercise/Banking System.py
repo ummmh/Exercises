@@ -38,7 +38,7 @@ def generate_users():
 
 
 def find_user():
-    # TO COMPLETE
+    print("*** FIND USER ***")
     user_to_find = input("Enter user's first and lastname: ").title()
     for user in user_list:
         user_name = f"{user.first_name} {user.last_name}"
@@ -49,7 +49,7 @@ def find_user():
 
 
 def overdrafts():
-    # TO COMPLETE
+    print("*** OVERDRAFT INFORMATION ***")
     overdraft_users = []
     total_amount = []
 
@@ -64,7 +64,7 @@ def overdrafts():
 
 
 def missing_emails():
-    # TO COMPLETE
+    print("*** USERS WITH MISSING EMAILS ***")
     users_missing_emails = []
     for user in user_list:
         if not user.email:
@@ -75,7 +75,7 @@ def missing_emails():
 
 
 def bank_details():
-    # TO COMPLETE
+    print("*** BANK DETAILS ***")
     total_balance = []
     for user in user_list:
         total_balance.append(user.balance)
@@ -84,17 +84,18 @@ def bank_details():
     last_user = user_list[0]
     print(f"Total users: {len(user_list)}")
     print(f"Bank worth total: {sum(total_balance)}")
-    print("\nUser with highest balance:")
-    print(top_user.display_info())
-    print("\nUser with lowest balance:")
-    print(last_user.display_info())
+    print(f"User with highest balance: {top_user.first_name} "
+          f"{top_user.last_name} - ${top_user.balance}")
+    print(f"User with highest balance: {last_user.first_name} "
+          f"{last_user.last_name} - ${last_user.balance}")
 
 
 def transfer():
     user1 = ""
     user2 = ""
     action = True
-
+    
+    print("*** TRANSFER MONEY ***")
     while True:
         account1 = input("Enter account number: ")
         for user in user_list:
