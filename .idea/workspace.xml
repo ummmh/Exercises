@@ -40,8 +40,8 @@
       <recent name="C:\Users\janna\OneDrive - Middleton Grange School\2022\13DTC\3.7 Programming\Exercises\refresher_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.student_system">
-    <configuration name="dog_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Banking System">
+    <configuration name="Banking System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,11 +49,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_banking_system_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dog_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_banking_system_exercise/Banking System.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Banking System" />
         <item itemvalue="Python.student_system" />
         <item itemvalue="Python.library_system" />
         <item itemvalue="Python.practice_bus_company" />
         <item itemvalue="Python.student_class" />
-        <item itemvalue="Python.dog_class" />
       </list>
     </recent_temporary>
   </component>
