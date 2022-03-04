@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="123764cd-bdf1-4c9e-a57a-f68df6cd54a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03_banking_system_exercise/Banking System.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_banking_system_exercise/Banking System.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
