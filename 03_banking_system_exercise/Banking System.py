@@ -94,7 +94,7 @@ def transfer():
     user1 = ""
     user2 = ""
     action = True
-    
+
     print("*** TRANSFER MONEY ***")
     while True:
         account1 = input("Enter account number: ")
