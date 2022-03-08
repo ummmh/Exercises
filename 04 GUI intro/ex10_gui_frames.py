@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()
-root.title("My first button")
+root.title("Exercise 10")
 
 top_frame = Frame(root)
 top_frame.pack()
