@@ -1,36 +1,26 @@
 from tkinter import *
 
 root = Tk()
-root.title("My first button")
+root.title("Exercise 11")
+root.geometry("300x300")
 
-top_frame = Frame(root)
-top_frame.pack()
+frame = Frame(root)
+frame.pack()
 
-bottom_frame = Frame(root)
-bottom_frame.pack()
+happy_label = Label(frame, text="Happy").grid(sticky=N)
 
-happy_label = Label(top_frame, text="Happy")
-happy_label.pack()
+dog_label = Label(frame, text="Dog").grid(sticky=N)
 
-dog_label = Label(top_frame, text="Dog")
-dog_label.pack()
+happy_button = Button(frame, text="Happy").grid(sticky=W, ipadx=10)
 
-happy_button = Button(top_frame, text="Happy")
-happy_button.pack(side=LEFT)
+sad_button = Button(frame, text="Sad").grid(ipadx=10)
 
-sad_button = Button(top_frame, text="Sad")
-sad_button.pack(side=LEFT)
+creepy_button = Button(frame, text="Creepy").grid(sticky=E, ipadx=10)
 
-creepy_button = Button(top_frame, text="Creepy")
-creepy_button.pack(side=LEFT)
+dog_button = Button(frame, text="Dog").grid(sticky=SW, ipadx=10)
 
-dog_button = Button(bottom_frame, text="Dog")
-dog_button.pack(side=LEFT)
+clown_button = Button(frame, text="Clown").grid(sticky=S, ipadx=10)
 
-clown_button = Button(bottom_frame, text="Clown")
-clown_button.pack(side=LEFT)
-
-banana_button = Button(bottom_frame, text="Banana")
-banana_button.pack(side=LEFT)
+banana_button = Button(frame, text="Banana").grid(sticky=SE, ipadx=10)
 
 root.mainloop()
