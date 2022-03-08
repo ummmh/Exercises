@@ -41,8 +41,8 @@
       <recent name="C:\Users\janna\OneDrive - Middleton Grange School\2022\13DTC\3.7 Programming\Exercises\refresher_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex8_gui_lambda_game">
-    <configuration name="ex6_gui_buttons_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Ex9_gui_dropdown_2">
+    <configuration name="Ex9_gui_dropdown_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +54,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\janna\OneDrive - Middleton Grange School\2022\13DTC\3.7 Programming\Exercises\04 GUI intro\ex6_gui_buttons_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 GUI intro/Ex9_gui_dropdown_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gui_buttons_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gui_dropdown" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 GUI intro/gui_buttons_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 GUI intro/gui_dropdown.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex9_gui_dropdown_2" />
+        <item itemvalue="Python.gui_dropdown" />
         <item itemvalue="Python.ex8_gui_lambda_game" />
         <item itemvalue="Python.ex7_gui_lambda_2" />
         <item itemvalue="Python.gui_lambda" />
-        <item itemvalue="Python.gui_buttons_3" />
-        <item itemvalue="Python.ex6_gui_buttons_2" />
       </list>
     </recent_temporary>
   </component>
