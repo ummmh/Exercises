@@ -43,7 +43,7 @@
       <recent name="C:\Users\janna\OneDrive - Middleton Grange School\2022\13DTC\3.7 Programming\Exercises\refresher_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex2_gui_image (1)">
+  <component name="RunManager" selected="Python.ex3_gui_labels_3">
     <configuration name="ex1_gui_labels_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex2_gui_image (1)" />
         <item itemvalue="Python.ex3_gui_labels_3" />
+        <item itemvalue="Python.ex2_gui_image (1)" />
         <item itemvalue="Python.ex1_gui_labels_2" />
         <item itemvalue="Python.gui_widget" />
         <item itemvalue="Python.ex2_gui_image" />
