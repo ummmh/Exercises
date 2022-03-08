@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 
-root.title("Exercise 1")
+root.title("Exercise 3")
 computer = Label(root, bg="lime", fg="white", text="computer",
                  font=("Times", 50, "italic"))
 computer.pack(fill=X)
