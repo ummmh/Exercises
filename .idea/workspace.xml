@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="123764cd-bdf1-4c9e-a57a-f68df6cd54a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04 GUI intro/ex11_gui_frames.py" beforeDir="false" afterPath="$PROJECT_DIR$/04 GUI intro/ex11_gui_frames.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <recent name="C:\Users\janna\OneDrive - Middleton Grange School\2022\13DTC\3.7 Programming\Exercises\refresher_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex14_gui_place">
+  <component name="RunManager" selected="Python.ex10_gui_frames">
     <configuration name="ex10_gui_frames" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,10 +157,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex10_gui_frames" />
         <item itemvalue="Python.ex14_gui_place" />
         <item itemvalue="Python.ex13_gui_login_place" />
         <item itemvalue="Python.ex11_gui_frames" />
-        <item itemvalue="Python.ex10_gui_frames" />
         <item itemvalue="Python.ex12_gui_login_grid" />
       </list>
     </recent_temporary>
