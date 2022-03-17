@@ -21,14 +21,8 @@ class Converter:
 
         # Help button (row 1)
         self.help_button = Button(self.converter_frame, text="Help",
-                                  font=("Helvetica", "14"), padx=10, pady=10,
-                                  command=self.help)
+                                  font=("Helvetica", "14"), padx=10, pady=10)
         self.help_button.grid(row=1)
-
-    def help(self):
-        print("You asked for help")
-        get_help = Help()
-        get_help.help_text.configure(text="Help text goes here")
 
 
 # main routine
