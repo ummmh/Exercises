@@ -1,6 +1,6 @@
 """ Converter trial v1
 Based on 02_Converter_GUI
-added commands to buttons - at line 51 and 57
+added commands to buttons - at line 51 and 58
 Then added functions for each conversion - lines 82-94
 """
 
