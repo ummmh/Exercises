@@ -102,7 +102,7 @@ class Converter:
                 celsius = (to_convert -32) * 5/9
                 to_convert = self.round_it(to_convert)
                 celsius = self.round_it(celsius)
-                answer = f"{to_convert}° Celsius is {celsius}° Fahrenheit"
+                answer = f"{to_convert}° Fahrenheit is {celsius}° Celsius"
 
             else:
                 # if input is invalid (e.g. too cold)
