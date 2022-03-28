@@ -13,8 +13,6 @@ for item in range(0, 5):
     get_item = input("Enter an item: ")
     all_calculations.append(get_item)
 
-all_calculations.reverse()
-
 # show that everything made it to the list
 print()
 print("*** FULL LIST ***")
