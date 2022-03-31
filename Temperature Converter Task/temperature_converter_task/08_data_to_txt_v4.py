@@ -4,9 +4,6 @@
 
 import re
 
-# Data to be outputted
-data = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh']
-
 # get filename, can't be blank /  invalid
 # assume valid data for now
 has_error = "yes"
