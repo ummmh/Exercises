@@ -15,13 +15,13 @@ class Converter:
 
         # Initialise list to hold calculation history
         # in later versions, list will be populated with user calculations
-        self.all_calculations = ['0 degrees F is -17.8 degrees C',
-                                 '0 degrees C is 32 degrees F',
-                                 '40 degrees C is 104 degrees F',
-                                 '40 degrees F is 4.4 degrees C',
-                                 '12 degrees C is 53.6 degrees F',
-                                 '24 degrees C is 75.2 degrees F',
-                                 '100 degrees F is 37.8 degrees C']
+        self.all_calculations = ['0° Fahrenheit is -17.8° Celsius',
+                                 '0° Celsius is 32° Fahrenheit',
+                                 '40° Celsius is 104° Fahrenheit',
+                                 '40° Fahrenheit is 4.4° Celsius',
+                                 '12° Celsius is 53.6° Fahrenheit',
+                                 '24° Celsius is 75.2° Fahrenheit',
+                                 '100° Fahrenheit is 37.8° Celsius']
 
         # Converter Frame
         self.converter_frame = Frame(bg=background_colour, pady=10)
