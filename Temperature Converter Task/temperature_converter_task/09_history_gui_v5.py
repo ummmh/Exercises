@@ -108,7 +108,7 @@ class History:
 
         # Export button
         self.dismiss_btn = Button(self.export_dismiss_frame, text="Export",
-                                  bg="#DAE8FC", font="helvetica 14 bold")
+                                  bg="#97BAE8", font="helvetica 14 bold")
         self.dismiss_btn.grid(row=0, column=0)
 
         # Dismiss button
