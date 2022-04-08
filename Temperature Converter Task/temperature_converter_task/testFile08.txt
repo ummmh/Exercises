@@ -1,0 +1,8 @@
+1° Fahrenheit is -17.2° Celsius
+2° Fahrenheit is -16.7° Celsius
+3° Fahrenheit is -16.1° Celsius
+4° Fahrenheit is -15.6° Celsius
+5° Fahrenheit is -15° Celsius
+6° Fahrenheit is -14.4° Celsius
+7° Fahrenheit is -13.9° Celsius
+8° Fahrenheit is -13.3° Celsius
