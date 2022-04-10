@@ -31,8 +31,9 @@ class Converter:
                                                   "converted and then push one"
                                                   " of the buttons below",
                                              font="Helvetica 10", wrap=290,
-                                             justify=LEFT, bg=background_colour
-                                             , padx=10, pady=10)
+                                             justify=LEFT,
+                                             bg=background_colour,
+                                             padx=10, pady=10)
         self.temp_instructions_label.grid(row=1)
 
         # Temperature entry box (row 2)
@@ -71,8 +72,8 @@ class Converter:
         self.history_button = Button(self.hist_help_frame,
                                      text="Calculation History",
                                      font=("Helvetica", "14"), bg="#DAE8FC",
-                                     width=15, command=lambda: self.history
-            (self.all_calc_list))
+                                     width=15, command=lambda:
+                                     self.history(self.all_calc_list))
         self.history_button.grid(row=0, column=0)
 
         if len(self.all_calc_list) == 0:
@@ -196,12 +197,14 @@ class History:
         history_string = ""
         if len(calc_history) >= 7:
             for item in range(0, 7):
-                history_string += calc_history[len(calc_history)-item-1]+"\n"
+                history_string += calc_history[
+                                      len(calc_history) - item - 1] + "\n"
 
         else:
             for item in calc_history:
                 history_string += calc_history[len(calc_history) -
-                                               calc_history.index(item)-1]+"\n"
+                                               calc_history.index(
+                                                   item) - 1] + "\n"
                 self.history_text.config(text="Here is your calculation "
                                               "history. You can use the export"
                                               " button to save this data to a"
@@ -219,8 +222,8 @@ class History:
 
         # Export button
         self.export_button = Button(self.export_dismiss_frame, text="Export",
-                                  bg="#97BAE8", font="helvetica 14 bold",
-                                  command=lambda: self.export(calc_history))
+                                    bg="#97BAE8", font="helvetica 14 bold",
+                                    command=lambda: self.export(calc_history))
         self.export_button.grid(row=0, column=0)
 
         # Dismiss button
@@ -251,7 +254,7 @@ class Export:
 
         # if users press cross at top, closes export and 'releases' export btn
         self.export_box.protocol('WM_DELETE_WINDOW', partial(self.close_export,
-                                                           partner))
+                                                             partner))
 
         # set up GUI Frame
         self.export_frame = Frame(self.export_box, width=300, bg=background)
