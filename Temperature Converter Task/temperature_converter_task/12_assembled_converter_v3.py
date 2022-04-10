@@ -20,7 +20,7 @@ class Converter:
         # Temperature Conversion Heading (row 0)
         self.temp_converter_label = Label(self.converter_frame,
                                           text="Temperature Converter",
-                                          font=("Helvetica", "16", "bold"),
+                                          font="Helvetica 16 bold",
                                           bg=background_colour,
                                           padx=10, pady=10)
         self.temp_converter_label.grid(row=0)
@@ -71,7 +71,7 @@ class Converter:
 
         self.history_button = Button(self.hist_help_frame,
                                      text="Calculation History",
-                                     font=("Helvetica", "14"), bg="#DAE8FC",
+                                     font="Helvetica 14", bg="#DAE8FC",
                                      width=15, command=lambda:
                                      self.history(self.all_calc_list))
         self.history_button.grid(row=0, column=0)
@@ -80,7 +80,7 @@ class Converter:
             self.history_button.config(state=DISABLED)
 
         self.help_button = Button(self.hist_help_frame, text="Help",
-                                  font=("Helvetica", "14"), bg="#DAE8FC",
+                                  font="Helvetica 14", bg="#DAE8FC",
                                   padx=5, pady=1, command=self.help)
         self.help_button.grid(row=0, column=1)
 
@@ -150,7 +150,7 @@ class Converter:
                                           "degrees Celsius or degrees "
                                           "Fahrenheit.\n\nThe Calculation "
                                           "History area shows up to seven "
-                                          "recent caclulations with the most "
+                                          "recent calculations with the most "
                                           "recent at the top.\n\nYou can also "
                                           "export your full calculation "
                                           "history to a text file if desired.",
